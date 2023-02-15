@@ -31,7 +31,7 @@ fi
 mkdir -p $BASE_DIR 
 
 OUTPUT=$BASE_DIR/$KUBESCAPE_EXEC
-DOWNLOAD_URL="https://github.com/kubescape/kubescape/releases/${RELEASE}/kubescape-${osName}-latest"
+DOWNLOAD_URL="https://github.com/kubescape/kubescape/releases/${RELEASE}/kubescape-${osName}-2.0.166"
 
 curl --progress-bar -L $DOWNLOAD_URL -o $OUTPUT
 
